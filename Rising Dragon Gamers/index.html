@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>R.D Gamers | Home </title>
+<link rel="shortcut icon" type="image/png" href="Eliments/favicon.png">
+<link href="css/Main Style.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Font Library -->
+<link href="Fonts/Fonts.css" rel="stylesheet" type= "text/css">
+
+<!-- Icon Lib-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!-- Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Scroll Speed Ajustment -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all single page links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+      // The number value specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+        ;
+      });
+    } 
+  });
+});
+</script>
+<!-- mobile nav logic -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</head>
+
+<body>
+<header> 
+    
+	<a href="#home"><img class="logo" src="images/Logo.png" width="150" height="150" alt="Logo"></a>
+	<a href="javascript:void(0);" class="icon" onClick="myFunction()">
+		<em class="fa fa-bars"></em></a>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#GS">GAMES</a></li>
+	    <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#Contct">CONTACT</a></li>
+      </ul>
+   </nav>
+	<!-- Mobile Nav -->	
+	<div class="topnav">
+	 <div id="myLinks">
+     <a href="#home">HOME</a>
+     <a href="#GS">GAMES</a>
+	 <a href="about.html">ABOUT</a>
+     <a href="#Contct">CONTACT</a>
+  </div>
+  </div>
+  </header>
+	
+<div id="home" class="container"> 
+ 
+<!-- Splash / Hero Section -->
+  <section class="hero">
+    <h2 class="hero_header rellax" data-rellax-speed="10">RISING DRAGON <font color="#C70003">GAMERS</font></h2>
+    <p class="tagline rellax" data-rellax-speed="5">EXPLORE THE WEST.</p>
+	  <div class="center">
+		<a href="#Welcome_Info">  <i class="far fa-arrow-alt-circle-down button_hover butt rellax" data-rellax-speed="7"></i> </a>
+	  </div>
+  </section>
+ 
+  
+  <!-- Welcome Section -->
+  <section class="welcome" id="Welcome_Info" >
+    <h2 class="rellax" style="color: #427F56 ;" data-rellax-speed="0">Welcome!</h2>
+    <p class="text_column">Welcome to Rising Dragon Gamers... Bathurst and the centeral west's hub for all things gaming. we are a small yet close nit community of passonate gamers. we meet on a weekly basis (see about page for times and more info). </p>
+    <p class="text_column">We offer a wide range of gaming oppertunitys for all types and skill levles of player. Come join us every week, for hours of fun.  </p>
+    <div class="text_column">
+		
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/About Card.png" alt="Click to go to abbout page" class="cards"/>
+    </div>
+    <div class="flip-card-back">
+      <a href="about.html" style="text-decoration: none;"><div class="button2"> About Rising Dragon Gamers</div></a>
+    </div>
+  </div>
+</div>
+</div>		
+  </section>
+	<div style="margin:60px;"><h4 style="color: #FFFFFF;">place</h4></div>
+  
+	
+<!-- Game Type Gallery -->
+  <div class="gallery">
+    <div class="thumbnail" id="GS" data-scroll>
+      <h1 class="stats">VR Games</h1>
+      <h4>We Have A HTC VIVE</h4>
+      <p class="ofsetleft">With a Veriaty of the most popular VR Titles.Play with the latest VR HMDS.</p>
+    </div>
+    <div class="thumbnail" data-scroll>
+      <h1 class="stats">Board Games</h1>
+      <h4>There Is A Large Collection Of Phisical Games.</h4>
+      <p>From card games to monopoly, you name it we have it.</p>
+    </div>
+    <div class="thumbnail" data-scroll>
+      <h1 class="stats">Hobby Crafts.</h1>
+      <h4>We Have Figurine Painting Facilitys</h4>
+      <p>You can have acseces to high-quality hobby paints for painting moddles and figgurines such as war hammer.</p>
+    </div>
+	 <div class="thumbnail" data-scroll>
+      <h1 class="stats">Hobby Crafts.</h1>
+      <h4>We Have Figurine Painting Facilitys</h4>
+      <p>You can have acseces to high-quality hobby paints for painting moddles and figgurines such as war hammer.</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">WE HAVE A VERIETY OF GAMES.</h2>
+	  <div class="parallax_description"><div class="button3"> See Our Game Library</div></div>
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>ABOUT</h3>
+      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+    <article class="footer_column">
+      <h3>LOCATION</h3>
+      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">CONTACT US FOR MORE INFO.</p>
+    <div class="button"> Contact us!</div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2020 Cubed WebDev <strong>Rising Dragon Gamers</strong></div>
+</div>
+<!-- Main Container Ends -->
+	
+	
+	
+	<!-- Rellax Paralax Lib -->	
+<script src="Scripts & Librarys/rellax.min.js"></script>
+<script>
+  const rellax = new Rellax('.rellax');
+</script>
+	
+	<!--Hello Scroll Hook Lib-->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	<script>
+		ScrollOut({
+  threshold: .1
+});
+	
+	</script>	
+</body>
+</html>
