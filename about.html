@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>R.D Gamers | Home </title>
+<link rel="shortcut icon" type="image/png" href="Eliments/favicon.png">
+<link href="css/About.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Font Library -->
+<link href="Fonts/Fonts.css" rel="stylesheet" type= "text/css">
+
+<!-- Icon Lib-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!-- Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- mobile nav logic -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</head>
+<!-- Rising Dragon Games is a small gaming comunity baced in Bathurst NSW. We meet every week form on Thursday evenings from 3:00pm to till 11pm. you can come and go at anytime imbetween the times -->
+<body>
+<header> 
+	<a href="#home"><img class="logo" src="images/Logo.png" width="150" height="150" alt="Logo"></a>
+	<a href="javascript:void(0);" class="icon" onClick="myFunction()">
+		<em class="fa fa-bars"></em></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html#GS">GAMES</a></li>
+	    <li><a href="about.html">ABOUT</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
+   </nav>
+	<!-- Mobile Nav -->	
+	<div class="topnav">
+	 <div id="myLinks">
+     <a href="index.html">HOME</a>
+     <a href="index.html#GS">GAMES</a>
+	 <a href="about.html">ABOUT</a>
+     <a href="index.html#contact">CONTACT</a>
+  </div>
+  </div>
+  </header>
+	
+<div id="home" class="container"> 
+    <!-- Main About -->
+  <section class="About" id="About" >
+    <h2 class="rellax" style="color: #427F56 ;" data-rellax-speed="0">Welcome!</h2>
+     <div class="text_column">
+		<img class="logo2" src="images/Logo.png" width="250" height="250" alt="Logo">
+</div>		
+  </section>
+	<div style="margin:60px;"><h4 style="color: #FFFFFF;">place</h4></div>
+	  <p class="text_column">Rising Dragon Gamers Bathurst is the centeral west's hub for all things gaming. we are a small yet close nit community of passonate gamers. we meet on a weekly basis on wednesday afternoon's from 6pm to 10pm. </p>
+    <p class="text_column">We offer a wide range of gaming oppertunitys for all types and skill levles of player. Come join us every week, for hours of fun.  </p>
+<!-- Game Type Gallery -->
+  <div class="gallery">
+    <div class="thumbnail"  data-scroll>
+      <h1 class="stats">We Meet Every Week</h1>
+      <h4>On Wednesday afternoons</h4>
+      <p class="ofsetleft">From 6pm to 10pm</p>
+    </div>
+	   <div class="thumbnail" data-scroll>
+      <h1 class="stats">Address</h1>
+		   <h4>2 Dry Street Bathurst NSW 2795 </h4>
+      <p class="ofsetleft">Austraila</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2341.5978076100814!2d149.57948777123315!3d-33.42054228704586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b11e433671adf0f%3A0x7a978f57ca5f1f49!2sRussell%20Street%20Medical%20Centre!5e0!3m2!1sen!2sau!4v1592270982442!5m2!1sen!2sau" width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></h2>
+	  <div class="parallax_description"><a href="game_lib.html"></a></div>
+  </section>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden" data-scroll>boop </h2>
+    <p class="hero_header" data-scroll>CONTACT US FOR MORE INFO</p>
+   <a href="contacts.html" style="text-decoration: none;"><div class="button"> Contact Us</div> </a>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2020 Cubed WebDev <strong>| Rising Dragon Gamers</strong></div>
+</div>
+<!-- Main Container Ends -->
+	
+	
+	
+	<!-- Rellax Paralax Lib -->	
+<script src="Scripts-Librarys/Librarys/rellax.min.js"></script>
+<script>
+  const rellax = new Rellax('.rellax');
+</script>
+	
+	<!--Hello Scroll Hook Lib-->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	<script>
+		ScrollOut({
+  threshold: .1
+});
+	
+	</script>	
+</body>
+</html>

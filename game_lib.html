@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>R.D Gamers | Games </title>
+
+<link rel="shortcut icon" type="image/png" href="Eliments/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/Game_lib.css"
+
+<!-- Custom Font Library -->
+<link href="Fonts/Fonts.css" rel="stylesheet" type= "text/css">
+
+<!-- Icon Lib-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!-- Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- mobile nav logic -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</head>
+<body>
+	<header>
+	<a href="index.html"><img class="logo" src="images/Logo.png" width="150" height="150" alt="Logo"></a>
+	<a href="javascript:void(0);" class="icon" onClick="myFunction()">
+		<em class="fa fa-bars"></em></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="game_lib.html">GAMES</a></li>
+	    <li><a href="index.html#Welcome_Info">ABOUT</a></li>
+        <li><a href="index.html#contact">FIND US</a></li>
+      </ul>
+   </nav>
+	<!-- Mobile Nav -->	
+	<div class="topnav">
+	 <div id="myLinks">
+     <a href="index.html">HOME</a>
+     <a href="game_lib.html">GAMES</a>
+	 <a href="index.html#Welcome_Info">ABOUT</a>
+     <a href="index.html#contact">FIND US</a>
+  </div>
+  </div>
+  </header>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Game Gallary -->
+  <div class="gallery">
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/DND.jpg" alt="DND" width="2000" class="cards"/></a>
+      <h4>Dungeons And Dragons</h4>
+      <p class="tag">a fantasy tabletop role-playing game</p>
+      <p class="text_column">originally designed by Gary Gygax and Dave Arneson. It was first published in 1974 by Tactical Studies Rules, Inc. The game has been published by Wizards of the Coast since 1997.</p>
+    </div>
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/PNDEMIC.jpg" alt="Pandemic" width="2000" class="cards"/></a>
+      <h4>Pandemic</h4>
+      <p class="tag">A cooperative board game</p>
+      <p class="text_column">Pandemic is based on the premise that four diseases have broken out in the world, each threatening to wipe out a region.</p>
+    </div>
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/Munchkin.jpg" alt="Munchkin" width="2000" class="cards"/></a>
+      <h4>Munchkin</h4>
+      <p class="tag">A dedicated deck card game</p>
+      <p class="text_column">It is a humorous take on role-playing games, based on the concept of munchkins (immature role-players, playing only to "win" by having the most powerful character possible).</p>
+    </div> 
+	  <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/Guillotine.jpg" alt="Guillotine" width="2000" class="cards"/></a>
+      <h4>Guillotine</h4>
+      <p class="tag">A Card Game</p>
+      <p class="text_column">Guillotine is a card game created by Wizards of the Coast and designed by Paul Peterson. The game is set during the French Revolution. The goal is to collect the heads of Nobles, accumulating points.</p>
+    </div>
+    
+  </div>
+  <div class="gallery">
+   <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/superhot.jpg" alt="Superhot" width="2000" class="cards"/></a>
+      <h4>Super Hot Vr</h4>
+      <p class="tag">Time Moves Only When You Move.</p>
+      <p class="text_column">Super Hot follows a traditional first person shooter manchanich but with the added twist of having matrix powers."Time moves Only When you Move".  </p>
+    </div>
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/Raw Data.jpg" alt="Raw Data VR" width="2000" class="cards"/></a>
+      <h4>Raw Data Vr</h4>
+      <p class="tag">A VR Wave Shooter</p>
+      <p class="text_column">A clasic wave shooter with a utopic storline and many combat modes.</p>
+    </div>
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/WOW.jpg" alt="World Of War-Craft" width="2000" class="cards"/></a>
+      <h4>World Of Warcraft</h4>
+      <p class="tag">One Of the Worlds Most Popular MMORPG's</p>
+      <p class="text_column"> explore the landscape, fighting various monsters, completing quests, and interacting with other players.</p>
+    </div>
+    <div class="thumbnail" data-scroll> <a href="#"><img src="images/Game Covers/CSGO.jpg" alt="CSGO" width="2000" class="cards"/></a>
+      <h4>CSGO</h4>
+      <p class="tag">One Of The Most Populare FPS E-Spots Titles</p>
+      <p class="text_column">Counter-Strike: Global Offensive is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment.</p>
+    </div>
+  </div>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2020 Cubed Dev - <strong>Rising Dragon Gamers</strong></div>
+</div>
+<!-- Main Container Ends -->
+<!--Hello Scroll Hook Lib-->
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+	<script>
+		ScrollOut({
+  threshold: .1
+});
+	
+	</script>	
+</body>
+</html>
